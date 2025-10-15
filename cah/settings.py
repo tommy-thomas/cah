@@ -14,7 +14,7 @@ from pathlib import Path
 from django_google_maps import fields as map_fields
 
 # Google Maps API Key
-GOOGLE_MAPS_API_KEY = ''
+GOOGLE_MAPS_API_KEY = 'AIzaSyAQFMUNFJ-QYdLuKL9rgCeUld7zYtLLCJM'
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = 'django-insecure-l77@s6dm8%#c@q+9nuz0y34q%z8gft0!oqdlv@$0sj6*53$663'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
